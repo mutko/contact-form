@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    
+    <section class="request">
+        
+        <form action="" class="contact-form">
+
+            <!-- Form Title -->
+            <div class="form-title">
+                <div class="form-group">
+                    <div class="form-animation">
+                        <span class="animation-circle">0%</span>
+                    </div>
+                    <div class="form-content form-title-text">
+                        <p>New York State</p>
+                        <h1>Request for Contact</h1>
+                    </div>
+                </div>
+            </div><!-- end form title -->
+
+            <!-- Form Content -->
+
+            <div class="form-main-content">
+
+                <div class="form-group">
+                    <div class="form-animation">
+                        <span class="animation-circle">1</span>
+                    </div>
+                    <div class="form-content animated-label">
+                        <input type="text" name="first-name" id="first-name" required>
+                        <label for="first-name">First Name</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-animation">
+                        <span class="animation-circle">2</span>
+                    </div>
+                    <div class="form-content animated-label">
+                        <input type="text" name="last-name" id="last-name" required>
+                        <label for="last-name">Last Name</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-animation">
+                        <span class="animation-circle">3</span>
+                    </div>
+                    <div class="form-content animated-label">
+                        <input type="text" name="email" id="email" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                </div>
+
+                <div class="form-group contact-time">
+                    <div class="form-animation">
+                        <span class="animation-circle">4</span>
+                    </div>
+
+                    <div class="form-content">
+                        <p>What is the best time to contact you?</p>
+                        <div class="animated-radio">
+                            <input type="radio" name="contact" id="contact-monday" value="Monday">
+                            <label for="contact-monday">Monday 3pm</label>
+                        </div>
+                        <div class="animated-radio">
+                            <input type="radio" name="contact" id="contact-tuesday" value="Tuesday">
+                            <label for="contact-tuesday">Tuesday 3pm</label>
+                        </div>
+                    </div>   
+                </div>
+
+                <button class="submit-button">Submit request</button>
+
+            </div><!-- end form main content -->
+
+        </form>
+    </section>
+   
+    <script src="main.js"></script>
+</body>
+</html>
