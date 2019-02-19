@@ -1,0 +1,146 @@
+/*
+    colors used 
+    darker blue   rgb(60, 126, 171)   #3e7cad
+    lighter blue  rgb(46, 143, 163)   #308da5
+
+    title bg      rgb(33, 150, 243)   #2196f3
+    check succ    rgb(57, 164, 245)   #39a4f5
+
+    white         rgb(255, 255, 255)  #fff
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 60px 0;
+    background: linear-gradient(to bottom, #3c7eab, #308da5) no-repeat;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.request {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.contact-form {
+    background-color: #fff;
+    color: #808080;
+}
+
+.form-title {
+    background-color: #2196f3;
+    color: #fff;
+}
+.form-title .form-group {
+    padding: 20px 0;
+}
+.form-title .animation-circle {
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    color: #fff;
+    box-shadow: none;
+    border: 3px solid #39a4f5;
+}
+.form-title h1 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.form-main-content {
+    padding: 40px 0 20px 0;
+}
+
+.form-group {
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.form-content {
+    width: 100%;
+    padding-right: 30px;
+    position: relative;
+}
+.animated-label:hover {
+    cursor: pointer;
+}
+.animated-label input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: .1px solid #A9A9A9;
+    font-size: 18px;
+    color: #808080;
+    padding-bottom: 5px;
+    font-weight: 300;
+    transition: .5s;
+}
+.animated-label input:focus {
+    outline: none;
+    border-bottom: .1px solid #39a4f5;
+    color: #39a4f5;
+}
+.animated-label label {
+    font-size: 18px;
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: .5s;
+}
+.animated-label input:focus + label,
+.animated-label input:valid + label {
+    font-size: 12px;
+    top: -20px;
+}
+
+.form-group p {
+    margin: 0;
+}
+
+.contact-time {
+    padding-bottom: 30px;
+}
+.contact-time .form-animation {
+    align-self: flex-start;
+}
+.contact-time .form-content div {
+    padding-top: 20px;
+}
+.contact-time input {
+    display: inline-block;
+    width: auto;
+}
+
+.form-animation {
+    flex: 0 1 90px;
+    text-align: center;
+}
+.animation-circle {
+    display: inline-block;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, .3);
+    color: #39a4f5;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.submit-button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background-color: #2196f3;
+    padding: 15px 20px;
+    color: #fff;
+    cursor: pointer;
+}
