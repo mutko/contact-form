@@ -140,6 +140,32 @@ body {
     line-height: 34px;
     position: relative;
 }
+.animation-styles {
+    background-color: #39a4f5;
+    color: #fff;
+}
+
+.animation-border {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    border-top: 1px solid #39a4f5;
+    border-right: 1px solid #39a4f5;
+    border-radius: 50%;
+    animation: rotate 1.5s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 .animated-radio {
     display: block;
@@ -185,35 +211,4 @@ body {
     padding: 15px 20px;
     color: #fff;
     cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-.animation-border {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: transparent;
-    border-top: 1px solid #39a4f5;
-    border-right: 1px solid #39a4f5;
-    border-radius: 50%;
-    animation: rotate 1.5s infinite linear;
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }
