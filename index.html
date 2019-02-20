@@ -8,16 +8,19 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
-    
+     
     <section class="request">
         
-        <form action="" class="contact-form">
+        <form action="" class="contact-form" id="contact-form">
 
             <!-- Form Title -->
             <div class="form-title">
                 <div class="form-group">
                     <div class="form-animation">
-                        <span class="animation-circle">0%</span>
+                        <div class="animation-circle">
+                            <div></div>
+                            <span>0%</span>
+                        </div>
                     </div>
                     <div class="form-content form-title-text">
                         <p>New York State</p>
@@ -32,7 +35,10 @@
 
                 <div class="form-group">
                     <div class="form-animation">
-                        <span class="animation-circle">1</span>
+                        <div class="animation-circle" id="animate-1">
+                            <div></div>
+                            <span>1</span>
+                        </div>
                     </div>
                     <div class="form-content animated-label">
                         <input type="text" name="first-name" id="first-name" required>
@@ -42,7 +48,10 @@
 
                 <div class="form-group">
                     <div class="form-animation">
-                        <span class="animation-circle">2</span>
+                        <div class="animation-circle" id="animate-2">
+                            <div></div>
+                            <span>2</span>
+                        </div>
                     </div>
                     <div class="form-content animated-label">
                         <input type="text" name="last-name" id="last-name" required>
@@ -52,7 +61,10 @@
 
                 <div class="form-group">
                     <div class="form-animation">
-                        <span class="animation-circle">3</span>
+                        <div class="animation-circle" id="animate-3">
+                            <div></div>
+                            <span>3</span>
+                        </div>
                     </div>
                     <div class="form-content animated-label">
                         <input type="text" name="email" id="email" required>
@@ -62,7 +74,10 @@
 
                 <div class="form-group contact-time">
                     <div class="form-animation">
-                        <span class="animation-circle">4</span>
+                        <div class="animation-circle" id="animate-4">
+                            <div></div>
+                            <span>4</span>
+                        </div>
                     </div>
 
                     <div class="form-content">
@@ -81,7 +96,7 @@
                     </div>   
                 </div>
 
-                <button class="submit-button">Submit request</button>
+                <button class="submit-button" id="submit-button" disabled>Submit request</button>
 
             </div><!-- end form main content -->
 
