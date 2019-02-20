@@ -15,7 +15,7 @@ let isValidEmail;
 let percent = 0;
 let elem = document.getElementById('percent-complete');
 
-firstName.addEventListener('click', function() {
+firstName.addEventListener('focusin', function() {
     document.querySelector('#animate-1 > div').classList.add('animation-border');
 })
 
@@ -35,7 +35,7 @@ firstName.addEventListener('focusout', function() {
 })
   
 
-lastName.addEventListener('click', function() {
+lastName.addEventListener('focusin', function() {
     document.querySelector('#animate-2 > div').classList.add('animation-border');
 })
 
@@ -54,7 +54,7 @@ lastName.addEventListener('focusout', function() {
 })
 
 
-emailField.addEventListener('click', function() {
+emailField.addEventListener('focusin', function() {
     document.querySelector('#animate-3 > div').classList.add('animation-border');
 })
 
